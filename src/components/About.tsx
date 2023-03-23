@@ -18,7 +18,7 @@ const About = () => {
       <div className="flex flex-col items-center justify-center">
         <Link href="/">
           <div>
-            <img src={logo} alt={companyName} className="w-16 h-16" />
+            <img src={logo} alt={companyName} className="w-16 h-16 hover:scale-125 transition-200" />
           </div>
         </Link>
         {/* <div className="flex flex-wrap sm:gap-10 gap-8 items-center justify-center mt-4 h-12">

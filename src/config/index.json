@@ -20,7 +20,7 @@
   ],
   "callToAction": {
     "text": "mann kare",
-    "href": "#"
+    "href": "/"
   },
   "mainHero": {
     "title": "What to Buy? ",
@@ -29,7 +29,7 @@
     "img": "/assets/images/banner3.png",
     "primaryAction": {
       "text": "Google Play",
-      "href": "#"
+      "href": "/"
     },
     "secondaryAction": {
       "text": "App Store",

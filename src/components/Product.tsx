@@ -1,7 +1,7 @@
 import React from 'react';
 
-import Divider from './Divider';
 import config from '../config/index.json';
+import Divider from './Divider';
 
 const Product = () => {
   const { product } = config;
@@ -37,7 +37,7 @@ const Product = () => {
           </div>
           <div className={`w-full sm:w-1/2 p-6`}>
             <img
-              className="h-6/6 bg-blend-normal scale-105 sm:-mb-10 "
+              className="h-6/6 bg-blend-normal scale-105 sm:-mb-10 hover:translate-y-16 duration-200"
               src={firstItem?.img}
               alt={firstItem?.title}
             />
@@ -45,11 +45,11 @@ const Product = () => {
         </div>
 
         <div
-          className={`flex flex-wrap flex-col-reverse sm:flex-row sm:mt-20 justify-center`}
+          className={`flex flex-wrap flex-col-reverse sm:flex-row sm:mt-20 justify-center `}
         >
           <div className={`w-full sm:w-1/2 p-6`}>
             <img
-              className="h-6/6 bg-blend-normal scale-150 sm:-mb-20"
+              className="h-6/6 bg-blend-normal scale-150 sm:-mb-20 hover:-translate-y-16 duration-200"
               src={secondItem?.img}
               alt={secondItem?.title}
             />
@@ -80,7 +80,7 @@ const Product = () => {
             </div>
             <div className={`w-full sm:w-1/2 p-6`}>
               <img
-                className="h-6/6 md:scale-150 scale-105 sm:mt-24 sm:-mb-10 sm:ml-20 "
+                className="h-6/6 md:scale-150 scale-105 sm:mt-24 sm:-mb-10 sm:ml-20 hover:translate-y-16 duration-200 "
                 src={thirdItem?.img}
                 alt={thirdItem?.title}
               />
@@ -91,7 +91,7 @@ const Product = () => {
           >
             <div className={`w-full sm:w-1/2 p-6`}>
               <img
-                className="h-6/6 bg-blend-normal"
+                className="h-6/6 bg-blend-normal hover:-translate-y-16 duration-200"
                 src={fourthItem?.img}
                 alt={fourthItem?.title}
               />
