@@ -1,0 +1,146 @@
+{
+  "company": {
+    "name": "mann kare",
+    "logo": "/assets/images/mannkareL.svg"
+  },
+  "navigation": [
+    {
+      "name": "What's In Store",
+      "href": "product"
+    },
+    {
+      "name": "Who We Are",
+      "href": "features"
+    },
+
+    {
+      "name": "Contact Us",
+      "href": "about"
+    }
+  ],
+  "callToAction": {
+    "text": "mann kare",
+    "href": "#"
+  },
+  "mainHero": {
+    "title": "What to Buy? ",
+    "subtitle": " Jo mann kare.",
+    "description": "Our platform is the ultimate destination for fashion lovers who want access to the latest trends and designs",
+    "img": "/assets/images/banner3.png",
+    "primaryAction": {
+      "text": "Google Play",
+      "href": "#"
+    },
+    "secondaryAction": {
+      "text": "App Store",
+      "href": "mailto:issaafakattan@gmail.com?subject=I like react landing page!"
+    }
+  },
+  "product": {
+    "title": "What's in Store?",
+    "items": [
+      {
+        "title": "Sign in and set up your Profile",
+        "description": "Welcome to our fashion store, where you can find the latest trends and styles to elevate your wardrobe.",
+        "img": "/assets/images/signin.png"
+      },
+      {
+        "title": "Shop at your own pace",
+        "description": "  Add to Favorites and Checkout When Ready.",
+        "img": "/assets/images/p1.png"
+      },
+      {
+        "title": "List, Sell and Earn",
+        "description": "Our platform brings together the latest trends from top brands and independent designers, all in one place.",
+        "img": "/assets/images/P3.png"
+      },
+      {
+        "title": "Like, Buy and Follow",
+        "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!",
+        "img": "/assets/images/P2.png"
+      }
+    ]
+  },
+  "features": {
+    "title": "Who We Are ",
+    "subtitle": "We make Fashion Accessible without Breaking the Bank.",
+    "description": "Welcome to our fast fashion company, where we offer affordable clothing for all sizes and styles. Our team of collaborators works hard to bring you the latest trends and styles.Our marketplace is user-friendly and personalized, so you can find the perfect outfit for any occasion. Join us and discover fashion that's both affordable and stylish.",
+    "items": [
+      {
+        "name": "Convenience",
+        "description": "Join us and discover the convenience of shopping online for your favorite fashion brands, all in one place.",
+        "icon": "FaGrinStars"
+      },
+      {
+        "name": "Accessibility",
+        "description": "We give you access to upcoming and underrated brands you would not find anywhere else.",
+        "icon": "/assets/images/tailwindcss.svg"
+      },
+      {
+        "name": "Risk Reduction",
+        "description": "We understand that shopping online from unknown fashion brands can be risky, which is why we take extra steps to ensure that our fashion marketplace is a safe and secure place to shop.",
+        "icon": "/assets/images/nextjs.svg"
+      },
+      {
+        "name": "Brand Verification",
+        "description": "We carefully select and vet the fashion brands and designers we work with, ensuring that they meet our quality and ethical standards.",
+        "icon": "/assets/images/ts.png"
+      },
+      {
+        "name": "Customer Trust and Support",
+        "description": "Our customer support team is available to answer any questions you may have about a brand or designer before making a purchase, as well as to help you with any issues that may arise after your purchase.",
+        "icon": "/assets/images/nextjs.svg"
+      },
+      {
+        "name": "Collaboration and Growth",
+        "description": "We're passionate about supporting and collaborating with other fashion brands to promote growth and innovation in the industry.",
+        "icon": "/assets/images/nextjs.svg"
+      }
+    ]
+  },
+  "pricing": {
+    "title": "Pricing",
+    "items": [
+      {
+        "name": "Free",
+        "price": "$0",
+        "priceDetails": "for one user",
+        "features": [
+          "1 user",
+          "Basic Support",
+          "1 GB of storage",
+          "Email support"
+        ]
+      },
+      {
+        "name": "Pro",
+        "price": "$15",
+        "priceDetails": "per user",
+
+        "features": [
+          "5 users",
+          "Priority Support",
+          "10 GB of storage",
+          "Phone and Email support"
+        ]
+      },
+      {
+        "name": "Enterprise",
+        "price": "$29",
+        "priceDetails": "per user",
+        "features": [
+          "50 users",
+          "24/7 Support",
+          "100 GB of storage",
+          "Phone and Email support"
+        ]
+      }
+    ]
+  },
+  "about": {
+    "socialMedia": {
+      "insta": "https://instagram.com/mannkare.co?igshid=YmMyMTA2M2Y=",
+      "mail": " nkushagr@gmail.com"
+    }
+  }
+}
