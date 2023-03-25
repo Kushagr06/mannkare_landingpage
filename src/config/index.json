@@ -12,11 +12,15 @@
       "name": "Who We Are",
       "href": "features"
     },
-
+    {
+      "name": "Our Team",
+      "href": "career"
+    },  
     {
       "name": "Contact Us",
       "href": "about"
     }
+   
   ],
   "callToAction": {
     "text": "mann kare",
@@ -98,8 +102,8 @@
       }
     ]
   },
-  "pricing": {
-    "title": "Pricing",
+  "career": {
+    "title": "Our Team",
     "items": [
       {
         "name": "Free",
@@ -137,6 +141,7 @@
       }
     ]
   },
+  
   "about": {
     "socialMedia": {
       "insta": "https://instagram.com/mannkare.co?igshid=YmMyMTA2M2Y=",

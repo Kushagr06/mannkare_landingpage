@@ -2,18 +2,25 @@ import React from 'react';
 
 import config from '../config/index.json';
 
-const Pricing = () => {
-  const { pricing } = config;
-  const { items, title } = pricing;
+const Career = () => {
+  const { career } = config;
+  const { items, title } = career;
   const [firstPlan, secondPlan, thirdPlan] = items;
 
   return (
-    <section className={`bg-background py-8`} id="pricing">
+    <section className={`bg-background py-8`} id="career">
       <div className={`container mx-auto px-2 pt-4 pb-12 text-primary`}>
-        <h1
-          className={`w-full my-2 text-5xl font-bold leading-tight text-center text-primary`}
+      <h1
+          className={`w-full my-2 text-[7vh] font-bold leading-tight text-center text-primary font-custom`}
         >
-          {title}
+          {career.title.split(' ').map((word, index) => (
+            <span
+              key={index}
+              className={!(index % 3) ? 'text-primary' : 'text-border'}
+            >
+              {word}{' '}
+            </span>
+          ))}
         </h1>
         <div className={`w-full mb-4`}>
           <div
@@ -123,4 +130,4 @@ const Pricing = () => {
   );
 };
 
-export default Pricing;
+export default Career;

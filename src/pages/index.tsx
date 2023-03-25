@@ -8,6 +8,7 @@ import Header from '../components/Header';
 import LazyShow from '../components/LazyShow';
 import MainHero from '../components/MainHero';
 import MainHeroImage from '../components/MainHeroImage';
+import Career from '../components/Career';
 // import Pricing from '../components/Pricing';
 import Product from '../components/Product';
 
@@ -38,12 +39,12 @@ const App = () => {
           <Canvas />
         </>
       </LazyShow>
-      {/* <LazyShow>
-        <Pricing />
-      </LazyShow> */}
+      <LazyShow>
+        <Career />
+      </LazyShow>
       <LazyShow>
         <>
-          {/* <Canvas /> */}
+          <Canvas />
           <About />
         </>
       </LazyShow>

@@ -27,16 +27,16 @@ const MainHero = () => {
         <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
           <div className="rounded-md shadow">
             <div
-              className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-background bg-primary  hover:text-border md:py-4 md:text-lg md:px-10 cursor-pointer`}
-              onClick={() => setText('Coming Soon')}
+              className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-border bg-primary  hover:text-background hover:bg-border md:py-4 md:text-lg md:px-10 cursor-pointer`}
+              onClick={() => setText('Coming Soon on Android')}
             >
               {mainHero.primaryAction.text}
             </div>
           </div>
           <div className="mt-3 sm:mt-0 sm:ml-3">
             <div
-              className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md border-primary text-background bg-border hover:text-primary md:py-4 md:text-lg md:px-10 cursor-pointer`}
-              onClick={() => setText('Coming Soon')}
+              className={`w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md border-primary text-background bg-border hover:text-border hover:bg-primary md:py-4 md:text-lg md:px-10 cursor-pointer`}
+              onClick={() => setText('Coming Soon on iOS')}
             >
               {mainHero.secondaryAction.text}
             </div>

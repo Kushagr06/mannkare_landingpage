@@ -57,7 +57,7 @@ const Menu = () => {
                   duration={1000}
                   key={item.name}
                   to={item.href}
-                  className="font-lg text-gray-200 hover:text-gray-500 hover:cursor-pointer text-xl"
+                  className="font-lg text-gray-200 hover:text-gray-500 hover:cursor-pointer text-lg"
                 >
                   {item.name}
                 </Link>
@@ -117,7 +117,7 @@ const Menu = () => {
                 ))}
               </div>
               <div
-                className={`block w-full px-5 py-3 text-center font-medium text-primary bg-gray-50 hover:bg-gray-100 font-custom font-bold`}
+                className={`block w-full px-5 py-3 text-center font-medium text-primary bg-gray-50 hover:bg-gray-100 font-custom `}
               >
                 {callToAction.text}
               </div>
